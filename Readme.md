@@ -49,7 +49,27 @@ bash-3.2$
         Here -n option will not seperate the string by new line (\n).
 
 
-        
+#### Using the up arrow, print to the screen the strings “fee”, “fie”, “foe”, and “fum” without retyping echo each time.
+
+        Example :
+
+        % echo fee
+        fee 
+
+        press up arrow to get the previous command, press backspace to remove fee and replace with fie
+
+        % echo fie
+        fie
+
+        press up arrow to get the previous command, press backspace to remove fie and replace with foe
+
+        % echo foe
+        foe
+
+        press up arrow to get the previous command, press backspace to remove foe and replace with fum
+
+        % echo fum
+        fum
 
 
 
