@@ -1,4 +1,4 @@
-### Write a command that prints out the string “hello, world”.
+### Type the command echo 'hello (with a mismatched single quote), and then get out of trouble
 
 
 echo 'hello
@@ -72,4 +72,15 @@ bash-3.2$
         fum
 
 
+#### Clear the contents of the current tab.
+
+        To clear the contents in current tab :
+
+        % clear
+
+#### Open a new tab, execute echo 'hello', and then exit.
+
+        % sh-3.2# echo 'hello'
+        hello
+        sh-3.2# exit    
 
