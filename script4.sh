@@ -16,3 +16,8 @@ cat foo.txt bar.txt > quux.txt
 
 #### How do rm nonexistent and rm -f nonexistent differ for a nonexistent file?
 
+touch nonexistent
+rm -i nonexistent   #### In many unix systems, rm is actually rm -i. where -i option means, rm will ask the user for confirmation to delete the file. 
+touch nonexistent
+rm -i -f nonexistent   #### Here rm -f will override the implicit -i and it will not ask for the delete permission
+
