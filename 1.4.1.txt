@@ -1,0 +1,287 @@
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % touch baz
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit -am "Add baz"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        1.3.1.txt
+        baz
+
+nothing added to commit but untracked files present (use "git add" to track)
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git add -A
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit -m "Add bazz" 
+[main 35b3fac] Add bazz
+ 2 files changed, 121 insertions(+)
+ create mode 100644 1.3.1.txt
+ create mode 100644 baz
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit --amend "Add baz"
+error: pathspec 'Add baz' did not match any file(s) known to git
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit --amend          
+[main 8965ac8] Add baz
+ Date: Thu Mar 7 10:29:35 2024 -0600
+ 2 files changed, 121 insertions(+)
+ create mode 100644 1.3.1.txt
+ create mode 100644 baz
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git log
+commit 8965ac894dac4c7f089ca61f7ef009087b016527 (HEAD -> main)
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:29:35 2024 -0600
+
+    Add baz
+
+commit 58c637c03d9d2630ebde3ea5a43cd2e0be1b38ee (origin/main)
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:25:27 2024 -0600
+
+    Added bar...
+
+commit 40ac66b11728b64fad60b9933002da2b32a3f43f
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:25:13 2024 -0600
+
+    Added foo...
+
+commit b640d7e768d336e7b0f0bd3eae643c7f61594661
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:19:46 2024 -0600
+
+    Deleted all
+
+commit f23ecc5972c419190f72b545b8cb4ac76a88ce78
+Author: shaker <tanimshaker@gmail.com>
+Date:   Fri Mar 1 08:38:18 2024 -0600
+
+    Finished the Assignment
+
+commit c524fa006b2430de6b59d54bd89a7f8d85b1d92d
+Author: shaker <tanimshaker@gmail.com>
+Date:   Fri Mar 1 08:32:45 2024 -0600
+
+    added more answers and script.
+
+commit ca19bfb9939831f2c399aa3c3398a54d8db303e4
+Author: shaker <tanimshaker@gmail.com>
+Date:   Fri Mar 1 08:11:31 2024 -0600
+
+    Answered more questions and prepared scripts according to the questions.
+
+commit a9e86d57d5a9fb43689ad3ae84e458dec2bb796d
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Feb 29 00:20:47 2024 -0600
+
+    Using the up arrow, print to the screen the strings “fee”, “fie”, “foe”, and “fum” without retyping echo each time.
+
+commit cd3b578d1592b1788082fdf56d922a02fa279629
+Author: shaker <tanimshaker@gmail.com>
+Date:   Wed Feb 28 22:44:01 2024 -0600
+
+    As seen in Listing 1.2, by default the echo command prints its argument to the screen and then puts the new prompt on a new line. The way it does this is by appending a special character called a newline that literally puts the string on a new line. (The newline character is usually written as \n, pronounced “backslash n”.) Because echo is often used in programs to print out a sequence of strings not separated by newlines, there is a special command-line option to prevent the newline from being inserted.
+
+commit d09e3e38bac78df1c4cfa29e31ea290ea8b9667d
+Author: shaker <tanimshaker@gmail.com>
+Date:   Wed Feb 28 22:39:16 2024 -0600
+
+    According to the man page, what are the official short and long descriptions of echo on your system?
+
+commit d1e6a636e8f63fb418a3625886c2259f0e2bca90
+Author: shaker <tanimshaker@gmail.com>
+Date:   Tue Feb 27 23:50:01 2024 -0600
+
+    Tune
+
+commit fbecad7cda450c1361e487e68604fb747321e102
+Author: shaker <tanimshaker@gmail.com>
+Date:   Tue Feb 27 23:49:37 2024 -0600
+
+    Fix
+
+commit 17bdcd67fe6c186f42f330c248415e5b17a34b2c
+Author: shaker <tanimshaker@gmail.com>
+Date:   Tue Feb 27 23:48:40 2024 -0600
+
+    Added Readme for question and answer
+
+commit 0b413bc37973207e33296b3e293aa08c9aa9e8a0
+Author: shaker <tanimshaker@gmail.com>
+Date:   Tue Feb 27 23:43:20 2024 -0600
+
+    first commit
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git log
+commit 8965ac894dac4c7f089ca61f7ef009087b016527 (HEAD -> main)
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:29:35 2024 -0600
+
+    Add baz
+
+commit 58c637c03d9d2630ebde3ea5a43cd2e0be1b38ee (origin/main)
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:25:27 2024 -0600
+
+    Added bar...
+
+commit 40ac66b11728b64fad60b9933002da2b32a3f43f
+Author: shaker <tanimshaker@gmail.com>
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % 
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git show 8965ac894dac4c7f089ca61f7ef009087b016527
+commit 8965ac894dac4c7f089ca61f7ef009087b016527 (HEAD -> main)
+Author: shaker <tanimshaker@gmail.com>
+Date:   Thu Mar 7 10:29:35 2024 -0600
+
+    Add baz
+
+diff --git a/1.3.1.txt b/1.3.1.txt
+new file mode 100644
+index 0000000..f8b0c5f
+--- /dev/null
++++ b/1.3.1.txt
+@@ -0,0 +1,121 @@
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % touch foo bar
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % ls
++bar     foo
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git add foo
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git status
++On branch main
++Your branch is up to date with 'origin/main'.
++
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        new file:   foo
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++        bar
++
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit -m "Added foo..."
++[main 40ac66b] Added foo...
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 foo
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git add bar
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git status                  
++On branch main
++Your branch is ahead of 'origin/main' by 1 commit.
++  (use "git push" to publish your local commits)
++
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        new file:   bar
++
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git commit -m "Added bar..."
++[main 58c637c] Added bar...
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 bar
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git log
++commit 58c637c03d9d2630ebde3ea5a43cd2e0be1b38ee (HEAD -> main)
++Author: shaker <tanimshaker@gmail.com>
++Date:   Thu Mar 7 10:25:27 2024 -0600
++
++    Added bar...
++
++commit 40ac66b11728b64fad60b9933002da2b32a3f43f
++Author: shaker <tanimshaker@gmail.com>
++Date:   Thu Mar 7 10:25:13 2024 -0600
++
++    Added foo...
++
++commit b640d7e768d336e7b0f0bd3eae643c7f61594661 (origin/main)
++Author: shaker <tanimshaker@gmail.com>
++Date:   Thu Mar 7 10:19:46 2024 -0600
++
++    Deleted all
++
++commit f23ecc5972c419190f72b545b8cb4ac76a88ce78
++Author: shaker <tanimshaker@gmail.com>
++Date:   Fri Mar 1 08:38:18 2024 -0600
++
++    Finished the Assignment
++
++commit c524fa006b2430de6b59d54bd89a7f8d85b1d92d
++Author: shaker <tanimshaker@gmail.com>
++Date:   Fri Mar 1 08:32:45 2024 -0600
++
++    added more answers and script.
++
++commit ca19bfb9939831f2c399aa3c3398a54d8db303e4
++Author: shaker <tanimshaker@gmail.com>
++Date:   Fri Mar 1 08:11:31 2024 -0600
++
++    Answered more questions and prepared scripts according to the questions.
++
++commit a9e86d57d5a9fb43689ad3ae84e458dec2bb796d
++Author: shaker <tanimshaker@gmail.com>
++Date:   Thu Feb 29 00:20:47 2024 -0600
++
++    Using the up arrow, print to the screen the strings “fee”, “fie”, “foe”, and “fum” without retyping echo each time.
++
++commit cd3b578d1592b1788082fdf56d922a02fa279629
++Author: shaker <tanimshaker@gmail.com>
++Date:   Wed Feb 28 22:44:01 2024 -0600
++
++    As seen in Listing 1.2, by default the echo command prints its argument to the screen and then puts the new prompt on a new line. The way it does this is by appending a special character called a newline that literally puts the string on a new line. (The newline character is usually written as \n, pronounced “backslash n”.) Because echo is often used in programs to print out a sequence of strings not separated by newlines, there is a special command-line option to prevent the newline from being inserted.
++
++commit d09e3e38bac78df1c4cfa29e31ea290ea8b9667d
++Author: shaker <tanimshaker@gmail.com>
++Date:   Wed Feb 28 22:39:16 2024 -0600
++
++    According to the man page, what are the official short and long descriptions of echo on your system?
++
++commit d1e6a636e8f63fb418a3625886c2259f0e2bca90
++Author: shaker <tanimshaker@gmail.com>
++Date:   Tue Feb 27 23:50:01 2024 -0600
++
++    Tune
++
++commit fbecad7cda450c1361e487e68604fb747321e102
++Author: shaker <tanimshaker@gmail.com>
++Date:   Tue Feb 27 23:49:37 2024 -0600
++
++    Fix
++
++commit 17bdcd67fe6c186f42f330c248415e5b17a34b2c
++Author: shaker <tanimshaker@gmail.com>
++Date:   Tue Feb 27 23:48:40 2024 -0600
++
++    Added Readme for question and answer
++
++commit 0b413bc37973207e33296b3e293aa08c9aa9e8a0
++Author: shaker <tanimshaker@gmail.com>
++Date:   Tue Feb 27 23:43:20 2024 -0600
++
++    first commit
++shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git push       
++Enumerating objects: 6, done.
++Counting objects: 100% (6/6), done.
++Delta compression using up to 8 threads
++Compressing objects: 100% (3/3), done.
++Writing objects: 100% (5/5), 431 bytes | 431.00 KiB/s, done.
++Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
++To https://github.com/shakertanim/Assignment-1--Getting-Started-with-Git-and-GitHub.git
++   b640d7e..58c637c  main -> main
+\ No newline at end of file
+diff --git a/baz b/baz
+new file mode 100644
+index 0000000..e69de29
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+shaker@Kamruls-MacBook-Air Assignment 1- Getting Started with Git and GitHub % git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.90 KiB | 1.90 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shakertanim/Assignment-1--Getting-Started-with-Git-and-GitHub.git
+   58c637c..8965ac8  main -> main
